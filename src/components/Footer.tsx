@@ -21,7 +21,7 @@ export default function Footer() {
           Promote your Nollywood film with Movie Mania.
         </h2>
         <p className="mt-4 max-w-md text-[14px] leading-relaxed text-paper/55">
-          Message us on WhatsApp with your film title and release date — we
+          Message us on WhatsApp with your film title and release date. We
           reply with the right package and posting schedule.
         </p>
 
@@ -67,7 +67,7 @@ export default function Footer() {
                       platform={p.platform}
                       className="h-3.5 w-3.5"
                     />
-                    {p.name.replace(" Promotion", "")} — {p.formattedPrice}
+                    {p.name.replace(" Promotion", "")} {p.formattedPrice}
                   </a>
                 </li>
               ))}

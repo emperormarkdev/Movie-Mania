@@ -20,7 +20,7 @@ const sans = Archivo({
   display: "swap",
 });
 
-const TITLE = "Movie Mania — Promote Your Film in Nigeria";
+const TITLE = "Movie Mania | Promote Your Film in Nigeria";
 const DESCRIPTION =
   "Movie Mania promotes Nollywood films, series and cinema releases to an audience that already watches them. Instagram, Facebook, TikTok and Telegram promotion packages from ₦5,000. Pay by card, transfer or USSD.";
 
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: TITLE,
-    template: "%s — Movie Mania",
+    template: "%s | Movie Mania",
   },
   description: DESCRIPTION,
   keywords: [

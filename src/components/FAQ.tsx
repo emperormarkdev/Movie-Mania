@@ -27,7 +27,7 @@ const FAQ_JSON_LD = {
       name: "Which payment methods does Movie Mania accept?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Nigerian cards (Visa, Mastercard, Verve), bank transfer, USSD and Apple Pay — all processed via Paystack.",
+        text: "Nigerian cards (Visa, Mastercard, Verve), bank transfer, USSD and Apple Pay, all processed via Paystack.",
       },
     },
     {
@@ -61,7 +61,7 @@ const FAQS = [
   },
   {
     q: "Which payment methods work?",
-    a: "Nigerian cards (Visa, Mastercard, Verve), bank transfer, USSD and Apple Pay — via Paystack.",
+    a: "Nigerian cards (Visa, Mastercard, Verve), bank transfer, USSD and Apple Pay, all via Paystack.",
   },
   {
     q: "Can I promote a non-film project?",
@@ -122,7 +122,7 @@ export default function FAQ() {
             className="mt-2 inline-flex items-center justify-center gap-2 border-t border-line py-4 text-[14px] font-semibold text-ink transition-colors hover:bg-wash lg:col-span-2"
           >
             <WhatsAppIcon className="h-4 w-4" />
-            Still unsure — ask on WhatsApp
+            Still unsure? Ask on WhatsApp
           </a>
         </div>
       </div>

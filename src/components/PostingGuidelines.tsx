@@ -13,7 +13,7 @@ const TERMS = [
   },
   {
     title: "Send clips by link",
-    body: "Google Drive, Dropbox or WeTransfer link in the booking form — “anyone with the link”.",
+    body: "Google Drive, Dropbox or WeTransfer link in the booking form, set to “anyone with the link”.",
   },
 ];
 

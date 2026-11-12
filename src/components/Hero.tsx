@@ -10,9 +10,7 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-6xl px-5 pb-16 pt-16 sm:px-8 sm:pb-24 sm:pt-24">
-        <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-paper/50">
-          Nollywood & cinema promotion · Nigeria
-        </p>
+       
 
         <h1 className="mt-5 max-w-[16ch] text-[3rem] leading-[0.95] tracking-[0.005em] sm:text-[5rem] lg:text-[6.5rem]">
           Promote your film. Every screen.
@@ -20,7 +18,7 @@ export default function Hero() {
 
         <p className="mt-7 max-w-md text-[15px] leading-relaxed text-paper/65 sm:text-base">
           Movie Mania puts Nollywood films, series and cinema releases in front
-          of the audience that already watches them — Instagram, Facebook,
+          of the audience that already watches them. Instagram, Facebook,
           TikTok and Telegram promotion packages from ₦5,000. Pick a package,
           pay once.
         </p>

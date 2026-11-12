@@ -40,7 +40,7 @@ export default function RateCard() {
             Promotion prices
           </h2>
           <p className="text-[14px] font-medium text-smoke">
-            Instagram, Facebook, TikTok & Telegram. One-time fee, no retainer.
+            Instagram, Facebook, TikTok and Telegram. One-time fee, no retainer.
           </p>
         </div>
 
@@ -101,8 +101,8 @@ export default function RateCard() {
         </div>
 
         <p className="mt-4 text-[12.5px] text-faint">
-          Facebook & Instagram include two clips — same day or staggered. Prices
-          in Naira. Custom campaigns on request.
+          Facebook and Instagram include two clips, same day or staggered.
+          Prices in Naira. Custom campaigns on request.
         </p>
 
         {/* Bundle */}
@@ -112,8 +112,8 @@ export default function RateCard() {
               All-Platform Takeover
             </h3>
             <p className="mt-2.5 text-[14px] text-paper/60">
-              {ALL_IN_ONE_BUNDLE.totalClips} clips everywhere in one window —
-              one booking, one payment.
+              {ALL_IN_ONE_BUNDLE.totalClips} clips everywhere in one window.
+              One booking, one payment.
             </p>
           </div>
           <div className="mt-6 flex items-center justify-between gap-4 sm:mt-0 sm:flex-col sm:items-end">

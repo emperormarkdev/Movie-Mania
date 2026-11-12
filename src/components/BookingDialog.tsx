@@ -133,7 +133,7 @@ export default function BookingDialog({
 
     const key = process.env.NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY;
     if (!window.PaystackPop || !key) {
-      setError("Online payment is down right now — book on WhatsApp instead.");
+      setError("Online payment is down right now. Book on WhatsApp instead.");
       return;
     }
 
@@ -333,7 +333,7 @@ export default function BookingDialog({
 
             <div>
               <label htmlFor="bk-email" className={LABEL}>
-                Email — receipt goes here
+                Email for your receipt
               </label>
               <input
                 id="bk-email"
