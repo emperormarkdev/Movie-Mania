@@ -18,10 +18,12 @@ export default function Footer() {
 
       <div className="relative mx-auto max-w-6xl px-5 pb-10 pt-16 sm:px-8 sm:pt-20">
         <h2 className="max-w-[14ch] text-[2.75rem] leading-[0.95] sm:text-[4.5rem]">
-          Got a film?
-          <br />
-          <span className="text-outline text-paper">Let&apos;s push it.</span>
+          Promote your Nollywood film with Movie Mania.
         </h2>
+        <p className="mt-4 max-w-md text-[14px] leading-relaxed text-paper/55">
+          Message us on WhatsApp with your film title and release date — we
+          reply with the right package and posting schedule.
+        </p>
 
         <a
           href={waHref(
@@ -100,7 +102,14 @@ export default function Footer() {
           <p>© 2026 Movie Mania</p>
           <p>
             Designed & developed by{" "}
-            <span className="text-paper/70">Marvex Technologies</span>
+            <a
+              href="https://wa.me/2349040447548?text=Hello%20Marvex%20Technologies%2C%20I%20found%20your%20work%20on%20the%20Movie%20Mania%20website."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-paper/70 underline decoration-paper/30 underline-offset-4 transition-colors hover:text-paper"
+            >
+              Marvex Technologies
+            </a>
           </p>
         </div>
       </div>

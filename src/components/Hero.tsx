@@ -11,19 +11,18 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-5 pb-16 pt-16 sm:px-8 sm:pb-24 sm:pt-24">
         <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-paper/50">
-          Film & cinema promotion
+          Nollywood & cinema promotion · Nigeria
         </p>
 
         <h1 className="mt-5 max-w-[16ch] text-[3rem] leading-[0.95] tracking-[0.005em] sm:text-[5rem] lg:text-[6.5rem]">
-          Your film.
-          <br />
-          <span className="text-outline text-paper">Every screen.</span>
+          Promote your film. Every screen.
         </h1>
 
         <p className="mt-7 max-w-md text-[15px] leading-relaxed text-paper/65 sm:text-base">
-          We put films, series and cinema releases in front of the audience that
-          already watches them — across Instagram, Facebook, TikTok and
-          Telegram. Pick a package, pay once.
+          Movie Mania puts Nollywood films, series and cinema releases in front
+          of the audience that already watches them — Instagram, Facebook,
+          TikTok and Telegram promotion packages from ₦5,000. Pick a package,
+          pay once.
         </p>
 
         <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">

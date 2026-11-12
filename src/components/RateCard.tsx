@@ -31,17 +31,16 @@ function whatsappLink(text: string) {
 
 export default function RateCard() {
   const [booking, setBooking] = useState<PromotionPackage | null>(null);
-  const separately = PROMOTION_PACKAGES.reduce((sum, p) => sum + p.price, 0);
 
   return (
     <section id="rate-card" className="scroll-mt-16 bg-paper">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
           <h2 className="text-[2.5rem] leading-none sm:text-[3.75rem]">
-            Prices
+            Promotion prices
           </h2>
           <p className="text-[14px] font-medium text-smoke">
-            One-time fee. No retainer.
+            Instagram, Facebook, TikTok & Telegram. One-time fee, no retainer.
           </p>
         </div>
 
@@ -113,8 +112,8 @@ export default function RateCard() {
               All-Platform Takeover
             </h3>
             <p className="mt-2.5 text-[14px] text-paper/60">
-              {ALL_IN_ONE_BUNDLE.totalClips} clips everywhere at once. Save{" "}
-              ₦{(separately - ALL_IN_ONE_BUNDLE.price).toLocaleString("en-NG")}.
+              {ALL_IN_ONE_BUNDLE.totalClips} clips everywhere in one window —
+              one booking, one payment.
             </p>
           </div>
           <div className="mt-6 flex items-center justify-between gap-4 sm:mt-0 sm:flex-col sm:items-end">
