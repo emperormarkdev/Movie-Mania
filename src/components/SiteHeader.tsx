@@ -27,6 +27,12 @@ export default function SiteHeader() {
             Prices
           </a>
           <a
+            href="#socials"
+            className="hidden text-[13px] font-semibold uppercase tracking-[0.08em] text-smoke transition-colors hover:text-ink sm:inline"
+          >
+            Socials
+          </a>
+          <a
             href="#faq"
             className="hidden text-[13px] font-semibold uppercase tracking-[0.08em] text-smoke transition-colors hover:text-ink sm:inline"
           >

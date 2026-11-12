@@ -123,3 +123,42 @@ export const CONTACT_INFO = {
   supportNote: 'Payment confirms booking. Direct inquiries on WhatsApp.'
 };
 
+export interface SocialLink {
+  platform: 'instagram' | 'facebook' | 'tiktok' | 'telegram';
+  label: string;
+  handle: string;
+  url: string;
+  description: string;
+}
+
+export const SOCIAL_LINKS: SocialLink[] = [
+  {
+    platform: 'instagram',
+    label: 'Instagram',
+    handle: '@thisismoviemania',
+    url: 'https://www.instagram.com/thisismoviemania',
+    description: 'Reels, film spotlights and behind-the-scenes promos.',
+  },
+  {
+    platform: 'facebook',
+    label: 'Facebook',
+    handle: 'Movie Mania',
+    url: 'https://www.facebook.com/share/19twT3Ucwe/',
+    description: 'Video feeds, group shares and cinema releases.',
+  },
+  {
+    platform: 'tiktok',
+    label: 'TikTok',
+    handle: '@thisismoviemania',
+    url: 'https://www.tiktok.com/@thisismoviemania',
+    description: 'Vertical cuts built for the algorithm.',
+  },
+  {
+    platform: 'telegram',
+    label: 'Telegram',
+    handle: 'MoviemaniansPage',
+    url: 'https://t.me/MoviemaniansPage',
+    description: 'Broadcast posts straight to movie lovers.',
+  },
+];
+
