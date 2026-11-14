@@ -103,7 +103,7 @@ export default function Footer() {
           <p>
             Designed & developed by{" "}
             <a
-              href="https://wa.me/2349040447548?text=Hello%20Marvex%20Technologies%2C%20I%20found%20your%20work%20on%20the%20Movie%20Mania%20website."
+              href="https://marvextechnologies.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-paper/70 underline decoration-paper/30 underline-offset-4 transition-colors hover:text-paper"
